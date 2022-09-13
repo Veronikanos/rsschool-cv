@@ -3,9 +3,7 @@
 # Tlostiuk Veronika
 ********* 
 
-![photo](./img/17.png "Photo")
-
-#### Contacts:
+### Contacts:
 * Location: Ukraine, Kyiv
 * Discord: Veronikanos#6678
 * E-mail: vveronikanika@gmail.com
@@ -15,7 +13,7 @@
 
 ### Summary:
 I am in the beginning of my career. I spent some years doing different stuff and searching for my passion. 
-I spend almost all of my time studying. I tried several directions in tech and non-tech to decide what kind of job I would like to dive into. Since I made my first web api and I decided that frontend development is what I want to do. I have been learning Javascript and React for 7 months. I decided to pursue my career in web-development and to get my first job as a junior frontend developer as soon as possible because I feel it is my place.
+I spend almost all of my time studying. I tried several directions in tech and non-tech to decide what kind of job I would like to dive into. Since I made my first web api and I decided that frontend development is what I want to do. I decided to pursue my career in web-development and to get my first job as a junior frontend developer as soon as possible because I feel it is my place.
 
 
 ### Self-education and courses:
@@ -24,14 +22,12 @@ I spend almost all of my time studying. I tried several directions in tech and n
 	3. Working on tasks at codewars.com and codingame.com.
 	4. GoIT JavaScript Bootcamp - in progress.
 	5. Udemy course JavaScript + React.
-	
+
 
 ### Languages:
-English - intermediate;
-
-Ukrainian - native;
-
-Russian - fluent.
+- English - intermediate;
+- Ukrainian - native;
+- Russian - fluent.
 
 
 ### Code example:
