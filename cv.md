@@ -3,7 +3,7 @@
 # Tlostiuk Veronika
 ********* 
 
-![photo](img/17.png "Photo")
+![photo](./img/17.png "Photo")
 
 #### Contacts:
 * Location: Ukraine, Kyiv
@@ -12,27 +12,29 @@
 * Tel: +38-095-349-55-15
 * GitHub: https://github.com/Veronikanos
 
-#### Summary:
+
+### Summary:
 I am in the beginning of my career. I spent some years doing different stuff and searching for my passion. 
 I spend almost all of my time studying. I tried several directions in tech and non-tech to decide what kind of job I would like to dive into. Since I made my first web api and I decided that frontend development is what I want to do. I have been learning Javascript and React for 7 months. I decided to pursue my career in web-development and to get my first job as a junior frontend developer as soon as possible because I feel it is my place.
 
 
-#### Education and courses:
-	1. 4 SheCodes workshops where I gained knowledge in HTML, CSS, JavaScript and React. Also had some practice in responsive designs, Bootstrap, AJAX.
+### Self-education and courses:
+	1. 4 SheCodes workshops (HTML, CSS, JavaScript and React, responsive designs, Bootstrap, AJAX).
 	2. My own React project "Cats" in the process.
 	3. Working on tasks at codewars.com and codingame.com.
 	4. GoIT JavaScript Bootcamp - in progress.
 	5. Udemy course JavaScript + React.
+	
 
-#### Work experience:
-
-
-#### Languages:
+### Languages:
 English - intermediate;
+
 Ukrainian - native;
+
 Russian - fluent.
 
-#### Code example:
+
+### Code example:
 ```
 function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
       const sharkTime = dolphin ? (sharkDistance / (sharkSpeed >> 1)) : sharkDistance / sharkSpeed;
