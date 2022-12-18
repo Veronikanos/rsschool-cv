@@ -5,6 +5,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   /* text-align: center; */
+  font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,6 +41,14 @@ ul {
   padding: 0;
 }
 
+h2 {
+  color: rgb(134, 99, 24);
+}
+
+section {
+  margin-bottom: 50px;
+}
+
 .main-wrapper {
   display: flex;
 }
@@ -53,13 +62,14 @@ ul {
 
 .container {
   max-width: 1440px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   padding: 20px;
 }
 
 .nav-list {
   display: flex;
   gap: 20px;
+  justify-content: space-around;
   /* background-color: beige; */
 }
 
@@ -78,4 +88,21 @@ ul {
   padding: 10px 20px;
   background-color: rgb(43, 43, 4);
   /* color: #ece4cc; */
+}
+
+.github-icon {
+  display: inline-block;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(43, 43, 4);
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }
