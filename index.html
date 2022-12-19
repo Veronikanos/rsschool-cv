@@ -34,15 +34,15 @@
             </li>
             <li><a class="nav-link" href="#summary"> summary</a></li>
             <li><a class="nav-link" href="#skills"> skills</a></li>
-            <li>
-              <a class="nav-link" href="#code-example">
-                code example</a
-              >
-            </li>
             <li><a class="nav-link" href="#courses">courses</a></li>
             <li><a class="nav-link" href=""> projects </a></li>
             <li>
               <a class="nav-link" href="#education">education</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#code-example">
+                code example</a
+              >
             </li>
             <li>
               <a class="nav-link" href="#languages">languages</a>
@@ -51,7 +51,6 @@
         </nav>
       </div>
     </header>
-
     <div class="main-wrapper container">
       <main>
         <div class="container">
@@ -60,25 +59,47 @@
             src="./assets/img/photo.jpg"
             alt="Veronika Tlostiuk" />
           <h1 class="header-text">Veronika Tlostiuk</h1>
+          <p class="position-header">Junior Front-end Developer</p>
           <section class="contacts">
-            <ul class="contacts-list" id="contacts">
-              <li><a href="">Location: Ukraine, Kyiv</a></li>
-              <li><a href="">Discord: Veronikanos#6678</a></li>
-              <li><a href="">E-mail: vveronikanika@gmail.com</a></li>
-              <li><a href="">Tel: +38-095-349-55-15</a></li>
-              <li>
-                <a href="">GitHub: https://github.com/Veronikanos</a>
-              </li>
-              <li>
-                <a href=""
-                  >Codewars:
-                  https://www.codewars.com/users/Veronikanos</a
-                >
-              </li>
-            </ul>
+            <h2 class="visually-hidden">CONTACTS</h2>
+            <address>
+              <ul class="contacts-list" id="contacts">
+                <li>
+                  <span class="contacts-list-span">Location:</span>
+                  Ukraine, Kyiv
+                </li>
+                <li>
+                  <a href="mailto:vveronikanika@gmail.com"></a>
+                  <span class="contacts-list-span">E-mail:</span>
+                  vveronikanika@gmail.com
+                </li>
+                <li>
+                  <a href="tel:+380953495515"></a
+                  ><span class="contacts-list-span">Tel:</span> +38
+                  095 349 55 15
+                </li>
+                <li>
+                  <span class="contacts-list-span">Discord:</span>
+                  Veronikanos#6678
+                </li>
+                <li>
+                  <a href="https://github.com/Veronikanos">
+                    <span class="contacts-list-span">GitHub:</span>
+                    https://github.com/Veronikanos</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.codewars.com/users/Veronikanos"
+                    ><span class="contacts-list-span">Codewars:</span>
+                    codewars.com/users/Veronikanos</a
+                  >
+                </li>
+              </ul>
+            </address>
           </section>
+
           <section class="skills" id="skills">
-            <h2>SKILLS</h2>
+            <h2>Skills</h2>
             <ul>
               <li>HTML/CSS</li>
               <li>SASS</li>
@@ -119,6 +140,7 @@
             best to become a skilled professional.
           </p>
         </section>
+
         <section class="courses" id="courses">
           <h2>COURSES</h2>
           <ol>
@@ -134,10 +156,47 @@
           <h2>EDUCATION</h2>
           <p>
             Bachelor's degree in Law from the State University of
-            infrastructure and technologies in Kiev, Ukraine.
+            infrastructure and technologies in Kiev, Ukraine. 2008 -
+            2013
           </p>
         </section>
+        <section class="projects">
+          <h2>my projects</h2>
+          <ul class="projects-list">
+            <li>
+              <a
+                class="projects-link"
+                href="https://veronikanos.github.io/FilmotekaTeamProject"
+                >Filmoteka - Team project, vanilla JavaScript -
+                Teamlead</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects-link"
+                href="https://astounding-beignet-0139c2.netlify.app"
+                >Weather app - vanilla JavaScript</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects-link"
+                href="https://superlative-gelato-fb1834.netlify.app"
+                >Dictionary app - React</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects-link"
+                href="https://marvelous-cannoli-0d605d.netlify.app"
+                >Portfolio - HTML, CSS, Bootstrap</a
+              >
+            </li>
+          </ul>
+        </section>
+
         <section class="code-example" id="code-example">
+          <h2>CODE EXAMPLE</h2>
           <h3>"Persistent Bugger" - KATA from CODEWARS:</h3>
           <p>
             Write a function, persistence, that takes in a positive
@@ -145,6 +204,7 @@
             which is the number of times you must multiply the digits
             in num until you reach a single digit.
           </p>
+          <p>My solution:</p>
           <pre><code>
 						function persistence(num){
 							let counter = 0;
@@ -172,7 +232,7 @@
                 alt="Github Icon"
                 width="26"
                 height="26" />
-              <!-- <p>Link to my GitHub</p> -->
+              <p>Veronikanos</p>
             </a>
           </li>
           <li>2022</li>
