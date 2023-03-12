@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: rgb(58, 58, 16);
+  --darker-bg-color: rgb(43, 43, 4);
+  --main-text-color: antiquewhite;
+  --bright-color: #dbac2a;
+  --headers-color: rgb(134, 99, 24);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
+}
+
+img {
+  width: 100%;
+}
+
+header,
+footer {
+  background-color: var(--darker-bg-color);
+  text-align: center;
+}
+
+footer .container {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--bright-color);
+  transition: color 0.5s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 {
+  color: var(--bright-color);
+}
+
+h2 {
+  color: var(--headers-color);
+  text-transform: uppercase;
+}
+
+h3 {
+  color: blanchedalmond;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.my-photo {
+  max-width: 300px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 3px dotted var(--main-text-color);
+}
+
+.position-header {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--darker-bg-color);
+
+  background-color: var(--bright-color);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+
+.nav-link {
+  padding: 15px 20px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--main-text-color);
+}
+
+.nav-link::after,
+.projects-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after,
+.projects-link:hover::after,
+.projects-link:focus::after {
+  width: 100%;
+  left: 0;
+}
+
+.projects-list li {
+  padding: 10px 10px;
+}
+
+.projects-link {
+  position: relative;
+  padding: 5px 10px;
+}
+
+.header-text {
+  text-transform: uppercase;
+}
+
+.contacts-list {
+  text-align: start;
+}
+
+.contacts-list-span {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.code-example {
+  padding: 10px 20px;
+  background-color: var(--darker-bg-color);
+  /* color: #ece4cc; */
+}
+
+.github-icon {
+  display: inline-block;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.gh-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.gh-link p {
+  width: 100%;
+  margin: 0;
+  color: var(--main-text-color);
+}
+
+/* .projects-list {
+
+  position: relative;
+  transition: all 0.5s ease-in;
+} */
